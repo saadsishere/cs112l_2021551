@@ -13,6 +13,10 @@ public:
         first = " ";
         second = " ";
     }
+    ~stringType()
+    {
+        cout << "destructor called :" << endl;
+    }
 
     void setvalues(string str1, string str2)
     {
